@@ -1,0 +1,33 @@
+{
+    "name": "nitsmax/ristaapi",
+    "description": "Rista php sdk for laravel 5",
+    "keywords": [
+        "swagger",
+        "php",
+        "sdk",
+        "api",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nitesh",
+            "email": "nits.max88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~1.0",
+        "squizlabs/php_codesniffer": "~2.6"
+    },
+    "autoload": {
+        "psr-4": { "Nitsmax\\Client\\" : "src/" }
+    },
+    "minimum-stability": "dev"
+}
